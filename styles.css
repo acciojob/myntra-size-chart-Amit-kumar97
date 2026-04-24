@@ -1,2 +1,50 @@
 
 /* Your CSS Code here. */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+}
+
+/* Header styling */
+thead tr {
+    background-color: #b74a4a; /* dark red */
+    color: white;
+}
+
+/* First row (Waist) styling */
+tbody tr:nth-child(1) {
+    background-color: #d08a8a; /* light red */
+    color: white;
+}
+
+/* Other rows */
+tbody tr:nth-child(2){
+	background-color: #ff9ff9;
+}
+tbody tr:nth-child(3) {
+    background-color: #d9d9d9; /* light grey */
+}
+
+/* Borders */
+th{
+	border: 2px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+td {
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: right;
+}
+
+/* Left align first column */
+td:first-child, th:first-child {
+    text-align: left;
+    font-weight: bold;
+}
